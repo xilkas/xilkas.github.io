@@ -1,0 +1,162 @@
+/* grid-template-rows: 200px auto 75px;
+width: 1200px;
+margin: 0 auto;
+min-height: 100vh;
+} */
+.header{
+display: flex;
+}
+
+.header__nav{
+align-self: stretch;
+}
+.nav__link{
+width: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.nav__links{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 0 auto;
+width: 90%;
+}
+.main{
+margin: 10px 0;
+display: grid;
+grid-template-columns: 3fr 1fr;
+}
+
+.picture{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 5px;
+}
+img{
+width: 300px;
+
+width: 100%;
+}
+section{
+padding: 5px;
+}
+.projects__project{
+
+margin: 10px auto;
+display: flex;
+flex-direction: column;
+width:100%;
+padding: 10px;
+}
+.project__title{
+align-self: center;
+}
+.project__articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+} 
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: grid;
+    grid-template-rows: 200px auto 75px;
+    width: 1200px;
+    margin:0 auto;
+}
+/* .main{
+    display: grid;
+    grid-template-rows: 200px auto 750px;
+    width: 1000;
+    margin:100 auto;
+    min-height: 200vh;
+} */ */
+
+/* }
+.main{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+} */
+
+
+ /* .menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space space-around;
+    padding: 20px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:0 auto;
+    width: 90%;
+
+}
+.header {
+    align-self: stretch;
+}
+  .nav-item {
+    margin-left: 5em;
+    font-size: 25pt;
+    font-weight: lighter;
+    color: #83a8af;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .nav-item hover {
+    font-size: 25pt;
+    font-weight: bolder;
+    color: #6f5e76;
+  } */
+  /* picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: left; 
+    padding: 5px;
+} */
+/* .left-side {
+    background-image: url(/images/Portrait.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 100vh;
+    margin-left: 3vw;
+  } */
+  /* .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+img{
+    width: 300px;
+/* }  */ */ */ */
