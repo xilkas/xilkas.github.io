@@ -1,33 +1,37 @@
 body{
-    background-color: rgb(8, 37, 37);
+    background-color: rgb(154, 224, 224);
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat&display=swap")
 
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 
 }
-.container{
-    background-color: lightgreen;
- 
-  background-image: url(../images/background.jpg);
-
+/* .container{
+    background-color: #48cae4;
+} */
+  /* background-image: url(../images/background.jpg); */
+/* 
 h1, h2, h3 {
   font-family: "Hammersmith One", sans-serif;
-}
-.container {
+} */
+/* .container {
   background-color: rgba(179, 200, 218, 0.65);
-}
+} */
 
 img {
-  border-radius: 15px;
+  border-radius: 30px;
 }
 .projects__project {
-  border: 2px solid rgb(241, 233, 233);
+  border: 2px solid rgba(128, 77, 77, 0.288);
   border-radius: 15px;
 }
+/* .project__description { 
+  border: 2px solid rgba(196, 18, 18, 0.288);
+  border-radius: 15px;
+} */
 ul{
     list-style: none;
 }
 header{
-    background-color: lightsalmon;
+    background-color: rgb(218, 163, 129);
 } 
